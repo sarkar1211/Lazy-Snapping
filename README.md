@@ -13,6 +13,31 @@ iteratively until old and new centroids become equal or total iteration exceeds 
 and background region is calculated and a binary image is formed with 1 for higher probability of
 belonging to foreground pixel and 0 for background pixel
 
-# Results
+## Results
 
-![Results]()
+- Dog
+![Results](https://raw.githubusercontent.com/sarkar1211/Lazy-Snapping/master/Results/Dog.png)
+
+- Lady
+![Results](https://raw.githubusercontent.com/sarkar1211/Lazy-Snapping/master/Results/Lady.png)
+
+- Mona-Lisa
+![Results](https://raw.githubusercontent.com/sarkar1211/Lazy-Snapping/master/Results/Mona.png)
+
+- Van-Gogh
+![Results](https://raw.githubusercontent.com/sarkar1211/Lazy-Snapping/master/Results/Vangogh.png)
+
+- Dancing Lady
+![Results](https://raw.githubusercontent.com/sarkar1211/Lazy-Snapping/master/Results/dance.png)
+
+# Poisson Image Blending
+
+Poisson image blending is an efficient algorithm used for seamlessly blending two images together. It takes a source and target and a mask image as input. The mask image is used for extracting the foreground object from the source image, allowing some margin and the algorithm is used for blending and reconstructing the final image.
+
+## Results
+
+- Car
+![Results](https://raw.githubusercontent.com/sarkar1211/Lazy-Snapping/master/Results/Car.png)
+
+- Polar Bear
+![Results](https://raw.githubusercontent.com/sarkar1211/Lazy-Snapping/master/Results/Bear.png)
